@@ -224,3 +224,62 @@ hr{
 	color:  #FBCE1F;
 	font-size: 18px;
 }
+.company-wrap-logo{
+	width: 100%;
+	margin-bottom: 50px;
+}
+.company-breadcrumbs{
+	display: flex;
+	flex-direction: row;
+	background: #FBCE1F;
+}
+.company-breadcrumbs li{
+	display: inline-block;
+	padding-left: 10px;
+}
+.company-breadcrumbs img{
+	padding-left: 10px;
+	padding-bottom: 2px;
+}
+.company-logo img{
+	width: 100%;
+}
+.company-contekst{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding-bottom: 60px;
+}
+.company-contekst-aboutus{
+	padding-left: 20px;
+}
+.company-contekst-aboutus h2{
+	font-size: 24px;
+	color: #222222;
+	font-family:"TextCondPro-Regular";
+	margin-top: 20px;
+}
+.company-contekst-aboutus h2:after{
+	content: "";
+	display: block;
+	height: 2px;
+	background: #FBCE1F;
+	width: 121px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+.company-contekst-aboutus p{
+	padding: 20px 0;
+	font-size: 12px;
+	color: #232323;
+	font-family: Arial;
+}
+.company-contekst-aboutus ul{
+	padding-left: 20px;
+}
+.company-contekst-aboutus li{
+	font-size: 12px;
+	color: #232323;
+	font-family: Arial;
+	list-style-type: disc;
+}
