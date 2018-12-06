@@ -16,6 +16,7 @@ header{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	margin-left: 110px;
 }
 .header-menu li{
 	list-style-type: none;}
@@ -96,6 +97,10 @@ main{
 }
 .left-block{
 	margin-right: 65px; 
+	width: 30%;
+}
+.right-block{
+	width: 64%;
 }
 .left-image{
 	margin-bottom: 20px;
