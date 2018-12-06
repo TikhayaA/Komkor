@@ -18,9 +18,7 @@ header{
 	justify-content: space-between;
 }
 .header-menu li{
-	list-style-type: none;
-	
-}
+	list-style-type: none;}
 .header-menu a{
 	text-decoration: none;
 	color: #000000;
@@ -327,4 +325,69 @@ hr{
 }
 .service-contekst h2:after{
 	width: 70px;
+	text-align: left;
+}
+.contact-wrap{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding-bottom: 60px;
+}
+.contact-block{
+	width: 50%;
+}
+.contact-form h2{
+	font-size: 24px;
+	font-weight: normal;
+}
+.contact-form h2:after{
+	width: 155px;
+}
+.contact-adress{
+	display: flex;
+	flex-direction: column;
+}
+h3{
+	color: #000000;
+	font-size: 18px;
+	font-family: Arial;
+	padding-top: 20px;
+}
+.contact-adress-text{
+	color: #000000;
+	font-size: 14px;
+	font-family: Arial;
+	line-height: 18px;
+}
+input{
+	display: block;
+	height: 20px;
+}
+input, textarea{
+	border-radius: 2px;
+	border: 1px solid #ccc;
+	width: 70%;
+	margin-bottom: 5px;
+}
+label{
+	color: #000000;
+	font-size: 12px;
+	font-family: Arial;
+}
+textarea{
+	height:80px;
+}
+input.button{
+	border-radius: 2px;
+	border: 1px solid #FBCE1F;
+	width: 50%;
+	height:40px;
+	background: #fff;
+	font-size: 18px;
+	font-family:"TextCondPro-Regular";
+
+}
+input.button:hover{
+	background: #FBCE1F;
 }
